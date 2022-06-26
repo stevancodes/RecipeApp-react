@@ -1,0 +1,47 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 10vh;
+    border-bottom: 1px solid #fe27474f;
+
+    h1 {
+        color: #fe2749;
+    }
+
+    .inside-wrapper {
+        padding: 0 20px;
+
+        a {
+            text-decoration: none;
+            margin-right: 20px;
+            color: black;
+            transition: 300ms;
+
+            &:hover {
+                color: red
+            }
+        }
+
+        button {
+            padding: 8px 15px;
+            border-radius: 20px;
+            background-color: #fe2749;
+            transition: 300ms;
+            cursor: pointer;
+            border: 2px solid transparent;
+            color: white;
+
+            &:hover {
+                border: 2px solid #fe2749;
+                background-color: white;
+                color: #fe2749;
+                transform: scale(0.9);
+
+            }
+        }
+
+    }
+
+}

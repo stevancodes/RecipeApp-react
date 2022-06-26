@@ -1,0 +1,50 @@
+.HomePage {
+    display: flex;
+    height: 80vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        transition: 300ms;
+
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
+
+    .searchInput {
+        position: absolute;
+        top: 3%;
+        left: 17%;
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        width: 15%;
+        background-color: rgba(231, 231, 231, 0.536);
+        border: none;
+        background-image: url(./searchIcon.png);
+        background-repeat: no-repeat;
+
+        // background-position: right;
+        background-size: 20px;
+        background-position-x: 90%;
+        background-position-y: 70%;
+
+        &:focus {
+            outline: none;
+        }
+
+
+    }
+
+    // .searchIcon {
+    //     position: absolute;
+    //     top: 3.5%;
+    //     left: 29%;
+    //     height: 23px
+    // }
+}

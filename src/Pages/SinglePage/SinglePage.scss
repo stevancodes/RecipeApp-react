@@ -17,7 +17,6 @@
     }
 
     .box {
-        // border: 1px solid #fe2749;
         color: black;
         margin-left: 10px;
         padding: 20px;
@@ -32,8 +31,18 @@
         z-index: 999;
     }
 
-    .overflowNone {
-        overflow-y: none;
+    .boxPrepTime {
+        color: black;
+        margin-left: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 10px;
+        max-width: 200px;
+        width: 200px;
+        background: #ffffff;
+        box-shadow: -15px 15px 30px #c9c9c9bd,
+            15px -15px 30px #ffffff;
+        z-index: 999;
     }
 
     .title {

@@ -35,7 +35,7 @@ function SinglePage(props) {
                 <div className="box ingredients"><p className="title">Ingredients</p> {recipe && recipe.ingredients.map((e, i) => {
                     return (<p key={i}>{e}</p>)
                 })}</div>
-                <div className="box"><p className="title">Prep time</p>{recipe && recipe.prepTime} min</div>
+                <div className="box overflowNone"><p className="title">Prep time</p>{recipe && recipe.prepTime} min</div>
             </div>
             <div className="boxGuide"><p className="title">Prep Guide</p>{recipe && recipe.preparation}</div>
             <div className="btnBox">

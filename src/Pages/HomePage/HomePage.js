@@ -17,7 +17,7 @@ function HomePage() {
 
     return (
         <div className='HomePage'>
-            <input type="text" className="searchInput" name="search" value={searchInput} placeholder="Search Recipes" onChange={(e) => setSearchInput(e.target.value)}></input>
+            <input type="text" className="searchInput" name="search" value={searchInput} onChange={(e) => setSearchInput(e.target.value)}></input>
             {filteredRecipes ? filteredRecipes.map((e) => {
                 return (
                     <Link to={`/recipe/${e.id}`} key={uuidv4()}>

@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 
     img {
-        height: 50vh;
+        height: 60vh;
         border-radius: 20px
     }
 
@@ -40,7 +40,7 @@
         max-width: 200px;
         width: 200px;
         background: #ffffff;
-        box-shadow: -15px 15px 30px #c9c9c9bd,
+        box-shadow: -15px 15px 30px #c0c0c0bd,
             15px -15px 30px #ffffff;
         z-index: 999;
     }
@@ -54,7 +54,7 @@
 
     .ingredients {
         overflow-y: scroll;
-        height: 200px;
+        height: 40vh;
     }
 
     .boxGuide {

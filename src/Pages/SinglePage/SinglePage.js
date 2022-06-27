@@ -9,7 +9,7 @@ function SinglePage(props) {
     const { update, recipes } = useContext(MainContext)
     const history = useHistory()
     const [editModal, setEditModal] = useState(false)
-    const recipe = recipes.find((e) => e.id == id);
+    const recipe = recipes.find((e) => e.id === id);
 
 
 

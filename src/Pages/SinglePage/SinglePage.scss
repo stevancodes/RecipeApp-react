@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 
     img {
-        height: 350px;
+        height: 50vh;
         border-radius: 20px
     }
 
@@ -54,7 +54,7 @@
 
     .ingredients {
         overflow-y: scroll;
-        height: 200px
+        height: 200px;
     }
 
     .boxGuide {
@@ -63,7 +63,7 @@
         padding: 20px;
         border-radius: 20px;
         margin: 10px;
-        width: 350px;
+        width: 30vw;
         overflow-y: auto;
         height: 300px;
         -webkit-box-shadow: 0px 14px 49px -14px rgba(0, 0, 0, 0.65);
@@ -78,8 +78,8 @@
 
     .btnBox {
         position: absolute;
-        bottom: 5%;
-        right: 7%;
+        bottom: 10%;
+        right: 9%;
         padding: 10px;
 
         .btn {

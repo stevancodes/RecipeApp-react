@@ -32,12 +32,12 @@ function SinglePage(props) {
                 <img src={recipe?.image}></img>
             </div>
             <div className="inside-wrapper">
-                <div className="box ingredients"><p className="title">Ingredients</p> {recipe && recipe.ingredients.map((e, i) => {
+                <div className="box ingredients"><p className="title">Ingredients</p> {recipe.ingredients?.map((e, i) => {
                     return (<p key={i}>{e}</p>)
                 })}</div>
-                <div className="boxPrepTime"><p className="title">Prep time</p>{recipe && recipe.prepTime} min</div>
+                <div className="boxPrepTime"><p className="title">Prep time</p>{recipe?.prepTime} min</div>
             </div>
-            <div className="boxGuide"><p className="title">Prep Guide</p>{recipe && recipe.preparation}</div>
+            <div className="boxGuide"><p className="title">Prep Guide</p>{recipe?.preparation}</div>
             <div className="btnBox">
                 <button className="btn" onClick={handleModal}>Change Recipe</button>
                 <button className="btnRemove" onClick={() => {

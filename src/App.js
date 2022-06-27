@@ -34,7 +34,7 @@ function App() {
               <HomePage />
             </Route>
             <Route path="/recipe/:id">
-              <SinglePage recipes={recipes} update={update} />
+              <SinglePage />
             </Route>
           </Switch>
         </BrowserRouter>

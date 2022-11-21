@@ -22,10 +22,11 @@ export const apiManagement = createApi({
       }),
     }),
     editRecipe: builder.mutation({
-      query: ({ id, body }) => ({
+      query: ({ id, ...rest }) => ({
         url: `/recipes/${id}`,
         method: "PUT",
-        body: body,
+        body: rest,
+        headers: { "Content-Type": "aplication/json" },
       }),
     }),
     removeRecipe: builder.mutation({
